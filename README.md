@@ -4,7 +4,3 @@ to generate the files:
  go generate ./...
 
 This is a work in progress
-
-
-
-
