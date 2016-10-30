@@ -17,7 +17,7 @@ Therefore you need a working cordova installation to make it run.
 
 You need [gopherjs](https://github.com/gopherjs/gopherjs) and [humble](https://github.com/go-humble/humble) to work on the sources.
 
- go get -v -u github.com/nhite/frontend
+`go get -v -u github.com/nhite/frontend`
 
 should do most of the work.
 
@@ -25,17 +25,17 @@ should do most of the work.
 
 The templates are generated with the help of the [temple](https://github.com/go-humble/temple) tool
  
- go get -u github.com/go-humble/temple
+`go get -u github.com/go-humble/temple`
 
 # Make it work
 
 to generate the javascript file from the go sources:
 
- go generate ./...
+`go generate ./...`
 
 to test in: 
  
- cd nhiteApp && cordova run browser
+`cd nhiteApp && cordova run browser`
 
 # Backend
 
